@@ -18,7 +18,7 @@ export default function Home() {
               alt="Client connecting with her equine co-coach."
             />
           </h1>
-          <h2 className="mt-5 max-w-5xl text-5xl font-semibold leading-10 tracking-tight text-black text-shadow-lg">
+          <h2 className="mt-5 max-w-5xl text-4xl font-semibold leading-10 tracking-tight text-black text-shadow-lg">
             Discover Your True JOYFUL Life
           </h2>
           <p className="max-w-2xl text-lg leading-8 text-zinc-600">
@@ -27,12 +27,21 @@ export default function Home() {
             Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
             Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
           </p>
+          <h3 className="mt-5 max-w-5xl text-4xl text-center font-semibold leading-10 tracking-tight text-black text-shadow-lg">
+            Lives Changed
+          </h3>
+          <div className="mt-5 grid grid-cols-2 gap-4 justify-items-center mb-10">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
           <p></p>
           <div className="mt-10 grid grid-cols-2 gap-4 justify-items-center mb-15">
             <div className="col-span-2">
-              <h3 className="max-w-3xl text-4xl font-semibold leading-10 tracking-tight text-black text-shadow-lg">
+              <p className="max-w-4xl text-4xl font-semibold leading-10 tracking-tight text-black text-shadow-lg">
               Meet Your Coach
-              </h3>
+              </p>
             </div>
             <div className="justify-items-center">
               <Image className="rounded-lg shadow-2xl"
