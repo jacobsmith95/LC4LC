@@ -3,22 +3,22 @@ import Image from 'next/image'
 export default function Home() {
   return (
     <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans">
-      <main className="flex min-h-screen w-full max-w-6xl flex-col items-center justify-between py-15 px-15 bg-white sm:items-start">
-        <header className="max-w-5xl text-5xl text-center font-bold tracking-tight text-black">
+      <main className="flex min-h-screen w-full max-w-6xl flex-col items-center justify-between px-15 bg-white sm:items-start">
+        <nav className="mt-2 max-w-5xl text-5xl text-center font-bold tracking-tight text-black sticky top-2">
           Get 'er Done With Joy Equus Life Coaching
           <br />
-        </header>
+        </nav>
         <br />
         <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
           <h1 className="mt-15 max-w-6xl text-5xl font-semibold leading-10 tracking-tight text-black">
-            <Image className="rounded-xl"
+            <Image className="rounded-xl shadow-2xl"
               src="/IMG_20260304_093638.jpg"
               width={1500}
               height={1500}
               alt="Woman connecting with her equine co-coach."
             />
           </h1>
-          <h2 className="mt-5 max-w-5xl text-5xl font-semibold leading-10 tracking-tight text-black">
+          <h2 className="mt-5 max-w-5xl text-5xl font-semibold leading-10 tracking-tight text-black text-shadow-lg">
             Discover Your True JOYFUL Life
           </h2>
           <p className="max-w-2xl text-lg leading-8 text-zinc-600">
@@ -30,12 +30,12 @@ export default function Home() {
           <p></p>
           <div className="mt-10 grid grid-cols-2 gap-4 justify-items-center">
             <div className="col-span-2">
-              <h3 className="max-w-3xl text-4xl font-semibold leading-10 tracking-tight text-black">
+              <h3 className="max-w-3xl text-4xl font-semibold leading-10 tracking-tight text-black text-shadow-lg">
               Meet Your Coach
               </h3>
             </div>
             <div className="justify-items-center">
-              <Image className="rounded-lg"
+              <Image className="rounded-lg shadow-2xl"
                 src="/lori_cook_life_coach.png"
                 width={400}
                 height={400}
