@@ -19,7 +19,7 @@ export default function Home() {
             />
           </h1>
           <h2 className="mt-5 max-w-5xl text-4xl font-semibold leading-10 tracking-tight text-black text-shadow-lg text-center">
-            Discover Your True JOYFUL Life
+            Discover Your True Joyful Life
           </h2>
           <p className="max-w-2xl text-lg leading-8 text-zinc-600">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
