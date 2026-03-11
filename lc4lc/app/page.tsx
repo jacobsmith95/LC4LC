@@ -18,7 +18,7 @@ export default function Home() {
               alt="Client connecting with her equine co-coach."
             />
           </h1>
-          <h2 className="mt-5 max-w-5xl text-4xl font-semibold leading-10 tracking-tight text-black text-shadow-lg">
+          <h2 className="mt-5 max-w-5xl text-4xl font-semibold leading-10 tracking-tight text-black text-shadow-lg text-center">
             Discover Your True JOYFUL Life
           </h2>
           <p className="max-w-2xl text-lg leading-8 text-zinc-600">
@@ -60,13 +60,10 @@ export default function Home() {
               </p>
             </div>
           </div>
-          <p></p>
-          <div className="mt-10 grid grid-cols-2 gap-4 justify-items-center mb-15">
-            <div className="col-span-2">
-              <p className="max-w-4xl text-4xl font-semibold leading-10 tracking-tight text-black text-shadow-lg">
-              Meet Your Coach
-              </p>
-            </div>
+          <h4 className="max-w-4xl text-4xl font-semibold leading-10 tracking-tight text-black text-shadow-lg">
+            Meet Your Coach
+          </h4>
+          <div className="mt-5 grid grid-cols-2 gap-4 justify-items-center mb-5">
             <div className="justify-items-center">
               <Image className="rounded-lg shadow-2xl"
                 src="/lori_cook_life_coach.png"
@@ -84,6 +81,9 @@ export default function Home() {
               </p>
             </div>
           </div>
+          <h5 className="max-w-4xl text-4xl font-semibold leading-10 tracking-tight text-black text-shadow-lg mb-15">
+            Contact
+          </h5>
         </div>
       </main>
     </div>
