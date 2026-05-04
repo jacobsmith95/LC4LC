@@ -33,30 +33,25 @@ export default function Home() {
           <div className="mt-5 grid grid-cols-2 gap-4 justify-items-center text-center mb-5">
             <div className="text-lg leading-8 text-zinc-600">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                "Lori is a patient and wise life coach. Her insights, compassionate presence, and playful coaching style have helped me find creative answers to my own questions and longings."
                 <br/><br/>
-                Lorem ipsum
+                - Britta
               </p>
             </div>
             <div className="text-lg leading-8 text-zinc-600">
               <p>
                 "Working with Lori has been an amazing experience. I've learned a great deal about myself and found new ways to tackle challenges thanks to her equus therapy. I wholeheartedly recommend her!"
                 <br/><br/>
-                - Christy A.
+                - Christy
               </p>
             </div>
-            <div className="mt-5 text-lg leading-8 text-zinc-600">
+            <div className="mt-5 col-span-2 text-lg leading-8 text-zinc-600">
               <p>
-                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                "I started working with Lori to address a longstanding challenge with internalized scarcity and financial difficulties. I've worked with on this with different styles of coaching over the years, but never with horses.
+                I was instantly struck by Lori's love of these amazing animals and her connection with them. Her kind ear towards my history and guidance to explore the thoughts and feelings that come up while engaging with the horses
+                has given me a profound compassion for myself in adverse situations. In just a couple of sessions, I have gained courage and ease while facing current difficulties. Thank you both to Lori and these intuitive animals!"
                 <br/><br/>
-                Lorem ipsum
-              </p>
-            </div>
-            <div className="mt-5 text-lg leading-8 text-zinc-600">
-              <p>
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                <br/><br/>
-                Lorem ipsum
+                - Gina
               </p>
             </div>
           </div>
