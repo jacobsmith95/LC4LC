@@ -40,9 +40,9 @@ export default function Home() {
             </div>
             <div className="text-lg leading-8 text-zinc-600">
               <p>
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                "Working with Lori has been an amazing experience. I've learned a great deal about myself and found new ways to tackle challenges thanks to her equus therapy. I wholeheartedly recommend her!"
                 <br/><br/>
-                Lorem ipsum
+                - Christy A.
               </p>
             </div>
             <div className="mt-5 text-lg leading-8 text-zinc-600">
