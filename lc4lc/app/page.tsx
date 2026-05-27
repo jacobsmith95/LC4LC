@@ -2,19 +2,20 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen justify-center font-sans">
-      <main className="flex min-h-screen w-full max-w-6xl flex-col px-15 sm:items-start">
-        <br />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="size-auto">
-            <Image className="rounded-xl shadow-2xl"
+    <div className="flex flex-col flex-wrap basis-auto min-h-screen justify-center font-sans">
+      <main className="w-full px-15 sm:items-start">
+        <div className="justify-items-end-safe">
+          <p className="">
+            <Image className=""
               src="/IMG_20260304_093638.jpg"
-              width={1500}
-              height={1500}
+              width={1279}
+              height={852}
               alt="Client connecting with her equine co-coach."
             />
-          </h1>
-          <h2 className="mt-5 max-w-5xl text-4xl font-semibold leading-10 tracking-tight text-black text-shadow-lg text-center">
+          </p>
+        </div>
+        <div className="items-center gap-6 text-center sm:items-start sm:text-left">
+          <h2 className="mt-5 max-w-5xl text-4xl font-semibold leading-10 tracking-tight text-black text-shadow-lg justify-center">
             Discover Your True Joyful Life
           </h2>
           <p className="max-w-2xl text-lg leading-8 text-zinc-600">
