@@ -47,8 +47,7 @@ export default function Home() {
             </div>
             <div className="mt-5 col-span-2 text-lg leading-8 text-zinc-600">
               <p>
-                "I started working with Lori to address a longstanding challenge with internalized scarcity and financial difficulties. I've worked with on this with different styles of coaching over the years, but never with horses.
-                I was instantly struck by Lori's love of these amazing animals and her connection with them. Her kind ear towards my history and guidance to explore the thoughts and feelings that come up while engaging with the horses
+                "I was instantly struck by Lori's love of these amazing animals and her connection with them. Her kind ear towards my history and guidance to explore the thoughts and feelings that come up while engaging with the horses
                 has given me a profound compassion for myself in adverse situations. In just a couple of sessions, I have gained courage and ease while facing current difficulties. Thank you both to Lori and these intuitive animals!"
                 <br/><br/>
                 - Gina
