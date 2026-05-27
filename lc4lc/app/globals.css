@@ -11,10 +11,9 @@
   --color-bluegreen: #16868a;
   --color-lavender: #8586c0;
   --color-greenblue: #2c5c67;
-  --color-textgreen: #aabb52;
+  --color-lorigreen: #aabb52;
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
-  --font-display: ;
 }
 
 @media (prefers-color-scheme: dark) {
