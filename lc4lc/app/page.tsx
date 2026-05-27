@@ -2,15 +2,11 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    <div className="flex min-h-screen justify-center bg-zinc-50 font-sans">
-      <main className="flex min-h-screen w-full max-w-6xl flex-col px-15 bg-white sm:items-start">
-        <nav className="mt-10 max-w-5xl text-5xl text-center font-bold tracking-tight text-black">
-          Get 'er Done With Joy Equus Life Coaching
-          <br />
-        </nav>
+    <div className="flex min-h-screen justify-center font-sans">
+      <main className="flex min-h-screen w-full max-w-6xl flex-col px-15 sm:items-start">
         <br />
         <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="mt-10 max-w-6xl text-5xl font-semibold leading-10 tracking-tight text-black">
+          <h1 className="size-auto">
             <Image className="rounded-xl shadow-2xl"
               src="/IMG_20260304_093638.jpg"
               width={1500}
