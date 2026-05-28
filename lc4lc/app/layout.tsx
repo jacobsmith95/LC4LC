@@ -25,10 +25,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`font-(family-name:--font-sans) max-w-full`}>
-        <div className="flex flex-col overflow-x-clip">
+      <body className={`font-(family-name:--font-sans)`}>
+        <div className="flex flex-col justify-center items-center content-center">
           <Navbar />
-          <main className="flex flex-grow flex-col">{children}</main>
+          <main className="">{children}</main>
         </div>
       </body>
     </html>
