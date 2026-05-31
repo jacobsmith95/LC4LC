@@ -25,10 +25,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`font-(family-name:--font-sans)`}>
+      <body className={`font-sans`}>
         <div className="flex flex-col justify-center items-center content-center">
           <Navbar />
-          <main className="">{children}</main>
+          <main className="font-sans">{children}</main>
         </div>
       </body>
     </html>
