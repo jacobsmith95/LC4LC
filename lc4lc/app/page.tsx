@@ -4,12 +4,15 @@ export default function Home() {
   return (
     <div className="">
       <main className="flex flex-col justify-center items-center content-center">
-        <div className="">
-          <div className="">
-            <br className=""
-            />
+        <div className="flex md:flex-row">
+          <div className="w-5xl order-1 p-5">
+            <div className="h-164 bg-bluegreen rounded-lg shadow-xl text-center align-bottom text-7xl/30 text-white font-semibold">
+              <a className="underline decoration-lorigreen">Discover</a> <br></br> <a className="underline decoration-lorigreen">your true</a> <br></br> <a className="text-9xl font-bold text-lorigreen underline decoration-lavender">joyful</a> <br></br> <a className="text-8xl underline decoration-lorigreen">life</a>
+            </div>
+            <div className="">
+            </div>
           </div>
-          <div className="max-w-5xl">
+          <div className="w-5xl order-2 p-5">
             <Image className="rounded-lg shadow-xl brightness-90"
               src="/IMG_20260304_093638.jpg"
               width={1279}
@@ -29,10 +32,10 @@ export default function Home() {
             Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
           </p>
         </div>
-        <div className="">
-          <p className="max-w-5xl text-4xl font-semibold tracking-tight text-black text-shadow-lg">
+        <div className="w-5/6">
+          <h3 className="max-w-5xl text-4xl font-semibold tracking-tight text-black text-shadow-lg">
             Lives Changed
-          </p>
+          </h3>
           <div className="grid grid-cols-2">
             <div className="text-lg text-zinc-600">
               <p>
