@@ -5,14 +5,19 @@ export default function Home() {
     <div className="">
       <main className="flex flex-col justify-center items-center content-center font-sans">
         <div className="flex md:flex-row">
-          <div className="w-5xl order-1 p-5">
-            <div className="h-164 bg-bluegreen rounded-lg shadow-xl text-center align-bottom text-7xl/30 text-white font-semibold">
-              <a className="underline decoration-lorigreen">Discover</a> <br></br> <a className="underline decoration-lorigreen">your true</a> <br></br> <a className="text-9xl font-bold text-lorigreen underline decoration-lavender">joyful</a> <br></br> <a className="text-8xl underline decoration-lorigreen">life</a>
+          <div className="min-w-xl order-1 p-5">
+            <div className="flex flex-col items-center justify-center h-164 bg-bluegreen rounded-lg shadow-xl text-white font-semibold text-shadow-lg">
+              <div className="text-7xl/30">
+                <a className="underline decoration-lorigreen">Discover</a> <br></br>
+                <a className="underline decoration-lorigreen">your true</a> <br></br>
+              </div>
+              <a className="text-9xl font-bold text-lorigreen underline decoration-lavender transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-130">joyful</a> <br></br>
+              <a className="text-8xl/30 underline decoration-lorigreen">life</a>
             </div>
             <div className="">
             </div>
           </div>
-          <div className="w-5xl order-2 p-5">
+          <div className="max-w-5xl order-2 p-5">
             <Image className="rounded-lg shadow-xl brightness-90"
               src="/IMG_20260304_093638.jpg"
               width={1279}
@@ -21,11 +26,11 @@ export default function Home() {
             />
           </div>
         </div>
-        <div className="">
+        <div className="flex flex-col justify-center items-center content-center p-20">
           <h2 className="max-w-5xl text-4xl font-semibold tracking-tight text-black text-shadow-lg">
-            Discover Your True Joyful Life
+            
           </h2>
-          <p className="max-w-2xl text-lg text-zinc-600">
+          <p className="max-w-3/4 text-lg text-zinc-600">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
             Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
