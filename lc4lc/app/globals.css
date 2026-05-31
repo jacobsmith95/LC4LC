@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap");
 @import "tailwindcss";
 
 :root {
@@ -12,8 +13,16 @@
   --color-lavender: #8586c0;
   --color-greenblue: #2c5c67;
   --color-lorigreen: #aabb52;
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-display: "Figtree", sans-serif;
+  --font-mono: "Figtree";
+}
+
+@font-face {
+  font-family: Figtree;
+  font-style: normal;
+  font-weight: 300 900;
+  font-display: swap;
+  src: url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap") format("woff2");
 }
 
 @media (prefers-color-scheme: dark) {
