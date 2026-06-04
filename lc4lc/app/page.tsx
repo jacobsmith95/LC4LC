@@ -25,19 +25,19 @@ export function useIsVisible(ref: any) {
 
 export default function Home() {
 
-  const ref1 = useRef();
+  const ref1 = useRef(null);
   const isVisible1 = useIsVisible(ref1);
 
-  const ref2 = useRef();
+  const ref2 = useRef(null);
   const isVisible2 = useIsVisible(ref2);
 
-  const ref3 = useRef();
+  const ref3 = useRef(null);
   const isVisible3 = useIsVisible(ref3);
 
-  const ref4 = useRef();
+  const ref4 = useRef(null);
   const isVisible4 = useIsVisible(ref4);
 
-  const ref5 = useRef();
+  const ref5 = useRef(null);
   const isVisible5 = useIsVisible(ref5);
 
   return (
