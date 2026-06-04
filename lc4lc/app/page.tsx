@@ -143,7 +143,7 @@ export default function Home() {
               Meet Your Coach
             </h4>
             <div className="max-w-3/4 md:grid grid-cols-2 gap-x-10 justify-items-center p-5">
-              <div className="">
+              <div className="order-1">
                 <Image className="rounded-lg shadow-2xl"
                   src="/lori_cook_life_coach.png"
                   width={400}
@@ -151,7 +151,7 @@ export default function Home() {
                   alt="Picture of Lori Cook, equine life coach."
                 />
               </div>
-              <div className="bg-bluegreen rounded-lg shadow-xl">
+              <div className="bg-bluegreen rounded-lg shadow-xl order-2">
                 <p className="text-2xl text-white p-10 text-shadow-lg">
                 Lori's lifetime of experience has included years of massage therapy, art therapy, and equus coaching.
                 She has Eagala training and is certified by the Center for Equus Coaching.
