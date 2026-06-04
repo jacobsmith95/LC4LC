@@ -5,7 +5,7 @@ export default function Navbar() {
     <nav className="sticky top-3 z-50 w-3/4 bg-lavender text-white md:px-8 py-4 rounded-xl font-sans">
       <div className="w-full flex justify-between items-center md:px-8 py-2 text-xl">
         <section className="flex space-x-4">
-          <Link href="/link1" className="hover:text-lorigreen">
+          <Link href="/" className="hover:text-lorigreen">
             Get Er Done With Joy Equus Life Coaching
           </Link>
           <Link href="/link2" className="hover:text-lorigreen">
