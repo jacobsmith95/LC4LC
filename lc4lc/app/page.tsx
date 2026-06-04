@@ -42,11 +42,11 @@ export default function Home() {
 
   return (
     <div className="">
-      <main className="flex flex-col justify-center items-center content-center font-sans">
+      <main className="md:flex flex-col justify-center items-center content-center font-sans">
         <div ref={ref1} className={`transition-opacity ease-in duration-700 ${isVisible1 ? "opacity-100" : "opacity-0"}`}>
-          <div  className="flex flex-col justify-center md:flex-row">
-            <div className="min-w-xl order-1 p-5">
-              <div className="flex flex-col items-center justify-center h-164 bg-bluegreen rounded-lg shadow-xl text-white font-semibold text-shadow-lg">
+          <div  className="flex flex-col justify-center md:flex-row p-10">
+            <div className="min-w-xl order-1 p-10">
+              <div className="flex flex-col items-center justify-center content-center h-158 bg-bluegreen rounded-lg shadow-xl text-white font-semibold text-shadow-lg">
                 <div className="text-7xl/30">
                   <a className="underline decoration-lorigreen">Discover</a> <br></br>
                   <a className="underline decoration-lorigreen">your true</a> <br></br>
@@ -54,10 +54,8 @@ export default function Home() {
                 <a className="text-9xl font-bold text-lorigreen underline decoration-lavender">joyful</a> <br></br>
                 <a className="text-8xl/30 underline decoration-lorigreen">life</a>
               </div>
-            <div className="">
             </div>
-            </div>
-            <div className="max-w-5xl order-2 p-5">
+            <div className="max-w-5xl order-2 p-10">
               <Image className="rounded-lg shadow-xl brightness-90"
                 src="/IMG_20260304_093638.jpg"
                 width={1279}
@@ -117,7 +115,7 @@ export default function Home() {
             <h4 className="max-w-3/4 text-4xl font-semibold tracking-tight text-black text-shadow-lg p-10">
               Equus Coaching is a Powerful Tool for Joy
             </h4>
-            <div className="max-w-3/4 md:grid grid-cols-2 gap-x-10 justify-items-center">
+            <div className="max-w-3/4 md:grid grid-cols-2 gap-x-10 justify-items-center p-5">
               <div className="order-1">
                 <p className="text-2xl text-zinc-600 text-shadow-lg">
                 By partnering with an equine co-coach, equus coaching offers unique benefits and profound, visceral insights into the self.
@@ -144,7 +142,7 @@ export default function Home() {
             <h4 className="max-w-3/4 text-4xl font-semibold tracking-tight text-black text-shadow-lg p-10">
               Meet Your Coach
             </h4>
-            <div className="max-w-3/4 grid grid-cols-2 justify-items-center">
+            <div className="max-w-3/4 md:grid grid-cols-2 gap-x-10 justify-items-center p-5">
               <div className="">
                 <Image className="rounded-lg shadow-2xl"
                   src="/lori_cook_life_coach.png"
