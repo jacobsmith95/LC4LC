@@ -44,7 +44,7 @@ export default function Home() {
     <div className="">
       <main className="md:flex flex-col justify-center items-center content-center font-sans">
         <div ref={ref1} className={`transition-opacity ease-in duration-700 ${isVisible1 ? "opacity-100" : "opacity-0"}`}>
-          <div  className="md:flex flex-col justify-center md:flex-row p-5 md:p-10">
+          <div  className="md:flex flex-col justify-center md:flex-row p-5 md:p-10 md:pt-30">
             <div className="md:min-w-xl order-1 p-5 md:p-10">
               <div className="flex flex-col items-center justify-center content-center md:h-158 bg-bluegreen rounded-lg shadow-xl text-white font-semibold text-shadow-lg p-5">
                 <div className="text-xl/10 md:text-7xl/30">
@@ -119,7 +119,7 @@ export default function Home() {
               <div className="order-1">
                 <p className="text-lg md:text-2xl text-zinc-600 text-shadow-lg">
                 By partnering with an equine co-coach, equus coaching offers unique benefits and profound, visceral insights into the self.
-                Horses are naturally sensitive and intuitive, they improve your understanding of your inner-dialogue and can help you pinpoint and understand roadblocks.
+                Horses are naturally sensitive and intuitive; they improve your understanding of your inner-dialogue and can help you pinpoint and understand roadblocks.
                 Equus coaching helps you move past internal conflict and develop your own personal flow and joy.
                 <br></br><br></br>
                 At Get Er Done With Joy Equus Coaching, Lori taps into the playful and simple nature of horses to help you move towards a more rewarding life. 
@@ -142,7 +142,7 @@ export default function Home() {
             <h4 className="text-2xl md:max-w-3/4 md:text-4xl font-semibold tracking-tight text-black text-shadow-lg p-5 md:p-20">
               Meet Your Coach
             </h4>
-            <div className="md:max-w-3/4 md:grid grid-cols-2 gap-x-10 justify-items-center">
+            <div className="md:max-w-3/4 md:grid grid-cols-2 gap-x-10 justify-items-center pb-20">
               <div className="order-1 p-5 md:p-0">
                 <Image className="rounded-lg shadow-2xl"
                   src="/lori_cook_life_coach.png"
@@ -166,10 +166,29 @@ export default function Home() {
           </div>
         </div>
         <div ref={ref5} className={`transition-opacity ease-in duration-700 ${isVisible5 ? "opacity-100" : "opacity-0"}`}>
-          <div id="contact" className="">
-            <h5 className="text-2xl text-center md:max-w-3/4 md:text-4xl font-semibold tracking-tight text-black text-shadow-lg p-5 md:p-20">
+          <div id="contact" className="flex flex-col justify-center items-center content-center pb-100">
+            <h5 className="text-2xl md:max-w-3/4 md:text-4xl font-semibold tracking-tight text-black text-shadow-lg p-5 md:pt-20">
               Contact
             </h5>
+            <div className="text-lg md:text-2xl text-zinc-600 text-shadow-lg p-5">
+              Contact us about scheduling, pricing, and questions:
+            </div>
+            <div className="flex flex-col md:grid grid-cols-2 md:min-w-250 gap-x-20 gap-y-5 p-5 md:p-10 md:max-w-3/4 text-shadow-lg pb-20">
+              <div className="text-lg md:text-2xl text-zinc-600 p-5 md:p-10 bg-lorigreen rounded-lg shadow-xl">
+                <p>
+                  Email:
+                  <br/><br/>
+                  <a className="text-2xl md:text-4xl">lc4lc@gmail.com</a>
+                </p>
+              </div>
+              <div className="text-lg md:text-2xl text-zinc-600 p-5 md:p-10 bg-lorigreen rounded-lg shadow-xl">
+                <p>
+                  Phone:
+                  <br/><br/>
+                  <a className="text-2xl md:text-4xl">503-449-2357</a>
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </main>
