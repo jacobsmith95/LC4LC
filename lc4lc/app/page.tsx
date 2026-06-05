@@ -166,14 +166,14 @@ export default function Home() {
           </div>
         </div>
         <div ref={ref5} className={`transition-opacity ease-in duration-700 ${isVisible5 ? "opacity-100" : "opacity-0"}`}>
-          <div id="contact" className="flex flex-col justify-center items-center content-center pb-100">
+          <div id="contact" className="flex flex-col justify-center items-center content-center pb-50 md:pb-100">
             <h5 className="text-2xl md:max-w-3/4 md:text-4xl font-semibold tracking-tight text-black text-shadow-lg p-5 md:pt-20">
               Contact
             </h5>
             <div className="text-lg md:text-2xl text-zinc-600 text-shadow-lg p-5">
               Contact us about scheduling, pricing, and questions:
             </div>
-            <div className="flex flex-col md:grid grid-cols-2 md:min-w-250 gap-x-20 gap-y-5 p-5 md:p-10 md:max-w-3/4 text-shadow-lg pb-20">
+            <div className="flex flex-col md:grid grid-cols-2 md:min-w-250 gap-x-20 gap-y-5 p-5 md:p-10 md:max-w-3/4 text-shadow-lg pb-10 md:pb-20">
               <div className="text-lg md:text-2xl text-zinc-600 p-5 md:p-10 bg-lorigreen rounded-lg shadow-xl">
                 <p>
                   Email:
