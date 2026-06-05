@@ -11,10 +11,10 @@ export default function Navbar() {
         </section>
 
         <section className="flex space-x-10 text-center px-5">
-          <Link href="/link4" className="hidden md:block hover:text-lorigreen">
+          <Link href="#about" className="hidden md:block hover:text-lorigreen">
             About
           </Link>
-          <Link href="/link5" className="hover:text-lorigreen">
+          <Link href="#contact" className="hover:text-lorigreen">
             Contact
           </Link>
         </section>

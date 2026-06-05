@@ -71,7 +71,7 @@ export default function Home() {
             <p className="text-lg md:max-w-3/4 md:text-2xl text-zinc-600 text-shadow-lg p-5 md:p-10">
             Finding joy has always been hard, even more so in today's world.
             Get Er Done With Joy Equus Coaching gives you the tools needed to find yourself and your joy.
-            In just a few sessions, you can find a new way of looking at yourself, your life, and those around you.
+            In just a few sessions, you can find new ways of looking at yourself and those around you.
             With our help, you can explore what you need to create your true joyful life.
             </p>
           </div>
@@ -110,8 +110,8 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div ref={ref3} className={`flex flex-col justify-center content-center items-center transition-opacity ease-in duration-700 ${isVisible3 ? "opacity-100" : "opacity-0"}`}>
-          <div className="flex flex-col md:max-w-3/4 justify-center items-center content-center p-5 md:p-10">
+        <div id="about" ref={ref3} className={`flex flex-col justify-center content-center items-center transition-opacity ease-in duration-700 ${isVisible3 ? "opacity-100" : "opacity-0"}`}>
+          <div className="flex flex-col md:max-w-3/4 justify-center items-center content-center p-5 md:p-10 md:py-20">
             <h4 className="text-2xl md:max-w-3/4 md:text-4xl font-semibold tracking-tight text-center text-black text-shadow-lg p-5 md:p-10">
               Equus Coaching is a Powerful Tool for Joy
             </h4>
@@ -131,15 +131,15 @@ export default function Home() {
                   src="/IMG_20260604.PNG"
                   width={400}
                   height={400}
-                  alt="Picture of Lori Cook, equine life coach."
+                  alt="Get Er Done With Joy Equus Coaching Logo."
                 />
               </div>
             </div>
           </div>
         </div>
         <div ref={ref4} className={`flex flex-col justify-center content-center items-center transition-opacity ease-in duration-700 ${isVisible4 ? "opacity-100" : "opacity-0"}`}>
-          <div className="flex flex-col md:max-w-3/4 justify-center items-center content-center p-5 md:p-10">
-            <h4 className="text-2xl md:max-w-3/4 md:text-4xl font-semibold tracking-tight text-black text-shadow-lg p-5 md:p-10">
+          <div className="flex flex-col md:max-w-3/4 justify-center items-center content-center p-5">
+            <h4 className="text-2xl md:max-w-3/4 md:text-4xl font-semibold tracking-tight text-black text-shadow-lg p-5 md:p-20">
               Meet Your Coach
             </h4>
             <div className="md:max-w-3/4 md:grid grid-cols-2 gap-x-10 justify-items-center">
@@ -166,7 +166,7 @@ export default function Home() {
           </div>
         </div>
         <div ref={ref5} className={`transition-opacity ease-in duration-700 ${isVisible5 ? "opacity-100" : "opacity-0"}`}>
-          <div className="">
+          <div id="contact" className="">
             <h5 className="text-2xl text-center md:max-w-3/4 md:text-4xl font-semibold tracking-tight text-black text-shadow-lg p-5 md:p-20">
               Contact
             </h5>
