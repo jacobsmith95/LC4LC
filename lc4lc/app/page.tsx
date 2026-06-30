@@ -123,13 +123,14 @@ export default function Home() {
                 Horses are naturally sensitive and intuitive; they improve your understanding of your inner-dialogue and can help you pinpoint and understand roadblocks.
                 This experiential tool helps you move past internal conflict and develop your own personal flow.
                 <br></br><br></br>
-                At Get Er Done With Joy Equus Coaching, Lori taps into the playful and simple nature of horses to help you move towards a more rewarding life. 
-                The profound and truthful nature of horses helps you explore what you want out of your life, career, and relationships.
+                No experience with horses is necessary for you to enjoy the benefits of equus coaching.
+                All interactions with your equine co-coach will be guided by your coach and done at any comfort level.
+                Just observing your co-coach in the corral can change the way you think about yourself and your life.
                 </p>
               </div>
-              <div className="order-2 p-5 md:p-0 rounded-lg shadow-2xl">
-                <Image className=""
-                  src="/photo_2026-06-29_20-12-26.jpg"
+              <div className="order-2 p-5 md:p-0">
+                <Image className="rounded-lg shadow-2xl"
+                  src="/photo_2026-06-29_20-12-27.jpg"
                   width={400}
                   height={500}
                   alt="A client with 2 equine co-coaches."
@@ -150,8 +151,8 @@ export default function Home() {
                 At Get Er Done With Joy Equus Coaching, Lori taps into the playful and simple nature of horses to help you move towards a more rewarding life. 
                 The profound and truthful nature of horses helps you explore what you want out of your life, career, and relationships.
                 <br></br><br></br>
-                At Get Er Done With Joy Equus Coaching, Lori taps into the playful and simple nature of horses to help you move towards a more rewarding life. 
-                The profound and truthful nature of horses helps you explore what you want out of your life, career, and relationships.
+                Lori provides a lifetime of experience to help you discover and move past roadblocks keeping you from authentic living.
+                With her equine partners, she can teach you how to find peace and satisfaction no matter your struggles.
                 </p>
               </div>
             </div>
@@ -191,7 +192,7 @@ export default function Home() {
               Contact
             </h5>
             <div className="text-lg md:text-2xl text-zinc-600 text-shadow-lg p-5">
-              Contact us about scheduling, pricing, and questions:
+              Contact us about scheduling, flexible pricing and complimentary demos, and questions:
             </div>
             <div className="flex flex-col md:grid grid-cols-2 md:min-w-250 gap-x-20 gap-y-5 p-5 md:p-10 md:max-w-3/4 text-shadow-lg pb-10 md:pb-20">
               <div className="text-lg md:text-2xl text-zinc-600 p-5 md:p-10 bg-lorigreen rounded-lg shadow-xl">
