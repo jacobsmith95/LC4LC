@@ -116,7 +116,7 @@ export default function Home() {
             <h4 className="text-2xl md:max-w-3/4 md:text-4xl font-semibold tracking-tight text-center text-black text-shadow-lg p-5 md:p-10">
               Equus Coaching is a Powerful Tool for Everyone
             </h4>
-            <div className="md:max-w-3/4 md:grid grid-cols-2 gap-x-10 justify-items-center p-5">
+            <div className="md:max-w-3/4 md:grid grid-cols-2 gap-x-10 justify-items-center p-5 pb-15">
               <div className="order-1">
                 <p className="text-lg md:text-2xl text-zinc-600 text-shadow-lg">
                 By partnering with an equine co-coach, equus coaching offers unique benefits and profound, visceral insights into the self.
@@ -131,7 +131,7 @@ export default function Home() {
                 <Image className=""
                   src="/photo_2026-06-29_20-12-26.jpg"
                   width={400}
-                  height={650}
+                  height={500}
                   alt="A client with 2 equine co-coaches."
                 />
               </div>
@@ -147,9 +147,8 @@ export default function Home() {
               </div>
               <div className="order-2">
                 <p className="text-lg md:text-2xl text-zinc-600 text-shadow-lg">
-                By partnering with an equine co-coach, equus coaching offers unique benefits and profound, visceral insights into the self.
-                Horses are naturally sensitive and intuitive; they improve your understanding of your inner-dialogue and can help you pinpoint and understand roadblocks.
-                This experiential tool helps you move past internal conflict and develop your own personal flow.
+                At Get Er Done With Joy Equus Coaching, Lori taps into the playful and simple nature of horses to help you move towards a more rewarding life. 
+                The profound and truthful nature of horses helps you explore what you want out of your life, career, and relationships.
                 <br></br><br></br>
                 At Get Er Done With Joy Equus Coaching, Lori taps into the playful and simple nature of horses to help you move towards a more rewarding life. 
                 The profound and truthful nature of horses helps you explore what you want out of your life, career, and relationships.
