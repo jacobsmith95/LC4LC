@@ -45,7 +45,7 @@ export default function Home() {
       <main className="md:flex flex-col justify-center items-center content-center font-sans">
         <div ref={ref1} className={`transition-opacity ease-in duration-700 ${isVisible1 ? "opacity-100" : "opacity-0"}`}>
           <div  className="md:flex flex-col justify-center md:flex-row p-5 md:p-10 md:pt-30">
-            <div className="md:min-w-xl order-1 p-5 md:p-10">
+            <div className="md:min-w-xl order-1 p-5 md:p-10 font-fun">
               <div className="flex flex-col items-center justify-center content-center md:h-158 bg-bluegreen rounded-lg shadow-xl text-white font-semibold text-shadow-lg p-5">
                 <div className="text-xl/10 md:text-7xl/30">
                   <a className="underline decoration-lorigreen">Discover</a> <br></br>
@@ -69,10 +69,11 @@ export default function Home() {
             
             </h2>
             <p className="text-lg md:max-w-3/4 md:text-2xl text-zinc-600 text-shadow-lg p-5 md:p-10">
-            Finding joy has always been hard, even more so in today's world.
-            Get Er Done With Joy Equus Coaching gives you the tools needed to find yourself and your joy.
+            Finding happiness has always been hard, even more so in today's world.
+            Get Er Done With Joy Equus Coaching gives you the tools needed to find yourself and your true satisfaction.
             In just a few sessions, you can find new ways of looking at yourself and those around you.
-            With our help, you can explore what you need to create your true joyful life.
+            With our help, you can explore what you need to create your true sincere life.
+            No experience with horses is necessary to enjoy the benefits of this coaching style, and Lori offers free demos for those interested.
             </p>
           </div>
         </div>
@@ -82,24 +83,24 @@ export default function Home() {
               Lives Changed
             </h3>
             <div className="text-lg md:max-w-3/4 md:text-2xl text-zinc-600 text-shadow-lg">
-              For the past 5 years, Lori has been helping people find their joy and change their lives.
+              For the past 4 years, Lori has been helping people find their authentic lives.
             </div>
             <div className="flex flex-col md:grid grid-cols-2 gap-x-4 gap-y-4 p-5 md:p-10 md:max-w-3/4 text-shadow-lg">
-              <div className="text-lg md:text-2xl text-zinc-600 p-5 md:p-10 bg-lorigreen rounded-lg shadow-xl">
+              <div className="text-lg md:text-2xl text-zinc-600 p-5 md:p-10 rounded-lg">
                 <p>
                   "Lori is a patient and wise life coach. Her insights, compassionate presence, and playful coaching style have helped me find creative answers to my own questions and longings."
                   <br/><br/>
                   - Britta
                 </p>
               </div>
-              <div className="text-lg md:text-2xl text-zinc-600 p-5 md:p-10 bg-lorigreen rounded-lg shadow-xl">
+              <div className="text-lg md:text-2xl text-zinc-600 p-5 md:p-10 rounded-lg">
                 <p>
-                  "Working with Lori has been an amazing experience. I've learned a great deal about myself and found new ways to tackle challenges thanks to her equus therapy. I wholeheartedly recommend her!"
+                  "Working with Lori has been an amazing experience. I've learned a great deal about myself and found new ways to tackle challenges thanks to her equus coaching. I wholeheartedly recommend her!"
                   <br/><br/>
                   - Christy
                 </p>
               </div>
-              <div className="hidden md:block col-span-2 text-2xl text-zinc-600 p-10 bg-lorigreen rounded-lg shadow-xl">
+              <div className="hidden md:block col-span-2 text-2xl text-zinc-600 p-10 rounded-lg">
                 <p>
                   "I was instantly struck by Lori's love of these amazing animals and her connection with them. Her kind ear towards my history and guidance to explore the thoughts and feelings that come up while engaging with the horses
                   has given me a profound compassion for myself in adverse situations. In just a couple of sessions, I have gained courage and ease while facing current difficulties. Thank you both to Lori and these intuitive animals!"
@@ -113,26 +114,46 @@ export default function Home() {
         <div id="about" ref={ref3} className={`flex flex-col justify-center content-center items-center transition-opacity ease-in duration-700 ${isVisible3 ? "opacity-100" : "opacity-0"}`}>
           <div className="flex flex-col md:max-w-3/4 justify-center items-center content-center p-5 md:p-10 md:py-20">
             <h4 className="text-2xl md:max-w-3/4 md:text-4xl font-semibold tracking-tight text-center text-black text-shadow-lg p-5 md:p-10">
-              Equus Coaching is a Powerful Tool for Joy
+              Equus Coaching is a Powerful Tool for Everyone
             </h4>
             <div className="md:max-w-3/4 md:grid grid-cols-2 gap-x-10 justify-items-center p-5">
               <div className="order-1">
                 <p className="text-lg md:text-2xl text-zinc-600 text-shadow-lg">
                 By partnering with an equine co-coach, equus coaching offers unique benefits and profound, visceral insights into the self.
                 Horses are naturally sensitive and intuitive; they improve your understanding of your inner-dialogue and can help you pinpoint and understand roadblocks.
-                Equus coaching helps you move past internal conflict and develop your own personal flow and joy.
+                This experiential tool helps you move past internal conflict and develop your own personal flow.
                 <br></br><br></br>
                 At Get Er Done With Joy Equus Coaching, Lori taps into the playful and simple nature of horses to help you move towards a more rewarding life. 
-                The powerful connection between you and an equine co-coach can help you explore what you want out of your life, career, and relationships.
+                The profound and truthful nature of horses helps you explore what you want out of your life, career, and relationships.
                 </p>
               </div>
-              <div className="order-2 p-5 md:p-0">
-                <Image className="rounded-lg shadow-2xl"
+              <div className="order-2 p-5 md:p-0 rounded-lg shadow-2xl">
+                <Image className=""
+                  src="/photo_2026-06-29_20-12-26.jpg"
+                  width={400}
+                  height={650}
+                  alt="A client with 2 equine co-coaches."
+                />
+              </div>
+            </div>
+            <div className="md:max-w-3/4 md:grid grid-cols-2 gap-x-10 justify-items-center p-5">
+              <div className="order-1 p-5 md:p-0">
+                <Image className=""
                   src="/IMG_20260604.PNG"
                   width={400}
                   height={400}
                   alt="Get Er Done With Joy Equus Coaching Logo."
                 />
+              </div>
+              <div className="order-2">
+                <p className="text-lg md:text-2xl text-zinc-600 text-shadow-lg">
+                By partnering with an equine co-coach, equus coaching offers unique benefits and profound, visceral insights into the self.
+                Horses are naturally sensitive and intuitive; they improve your understanding of your inner-dialogue and can help you pinpoint and understand roadblocks.
+                This experiential tool helps you move past internal conflict and develop your own personal flow.
+                <br></br><br></br>
+                At Get Er Done With Joy Equus Coaching, Lori taps into the playful and simple nature of horses to help you move towards a more rewarding life. 
+                The profound and truthful nature of horses helps you explore what you want out of your life, career, and relationships.
+                </p>
               </div>
             </div>
           </div>
